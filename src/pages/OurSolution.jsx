@@ -4,7 +4,7 @@ import product from '../assets/Rectangle.png';
 const OurSolutions = () => {
   return (
     <div>
-      <section id='oursolutions'>
+      <section id='oursolutions' className='bg-gray-50'>
         <h1 className='text-center text-[#F28500]  text-6xl py-10 font-bold '>Our Products</h1>
         <img className='ml-[13%]' src={product} alt='Product' />
 

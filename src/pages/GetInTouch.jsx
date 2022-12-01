@@ -4,7 +4,7 @@ import location from '../assets/location.png';
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
-import { FaPhoneAlt } from  "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
 
 const GetInTouch = (props) => {
@@ -12,15 +12,15 @@ const GetInTouch = (props) => {
   return (
     <div>
       <section id='getInTouch'>
-     <div className='bg-[#D9D9D9]'>
-     <div>
-          <img className='ml-[50%] h-full' src={contact} alt='Image' /></div>
-        <div className='bg-[#FFF] h-60 w-80 ml-96 z-[-1] mt-[-25%] py-4 px-7'>
-          <h1 className='text-[#F28500] font-semibold text-2xl'>Contact Us</h1>
-          <p className='pt-5 pb-5'>Let's discuss what projects you have in mind</p>
-          <button className='bg-[#000000] text-[#FFF] py-4 px-4'>Let's Have a Coffee</button>
+        <div className='bg-gray-50 pb-40'>
+          <div>
+            <img className='ml-[50%] h-full' src={contact} alt='Image' /></div>
+          <div className='bg-[#FFF] h-60 w-80 ml-96 z-[-1] mt-[-25%] py-4 px-7'>
+            <h1 className='text-[#F28500] font-semibold text-2xl'>Contact Us</h1>
+            <p className='pt-5 pb-5'>Let's discuss what projects you have in mind</p>
+            <button className='bg-[#000000] text-[#FFF] py-4 px-4'>Let's Have a Coffee</button>
+          </div>
         </div>
-     </div>
         <div className='bg-[#D9D9D9] flex py-14 px-20 pl-[15%] '>
           <div>
             <h4 className='py-5 font-semibold'>Location</h4>

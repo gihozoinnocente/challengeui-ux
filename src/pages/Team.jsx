@@ -6,7 +6,7 @@ import image12 from '../assets/image12.png';
 const Team = () => {
   return (
     <div>
-      <section id='team'>
+      <section id='team' className='bg-gray-50'>
         <h1 className='text-center text-[#F28500]  text-6xl py-16 font-bold'>Team</h1>
 
         <div class="grid grid-cols-4 gap-4 ml-[18%]">

@@ -7,7 +7,7 @@ import image4 from '../assets/image4.png';
 const OurPartners = () => {
     return (
         <div>
-            <section id='ourpartners'>
+            <section id='ourpartners' className='bg-gray-50'>
                 <h1 className='text-center text-[#F28500] text-6xl py-16 font-bold '>Our partners</h1>
                 {/* <div className='grid-cols-4	'>
                    
